@@ -1,0 +1,81 @@
+h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: skyblue;
+}
+body {
+    min-width: 400px;
+    min-height: 100px;
+    text-align: center;
+    background-color: rgb(42, 58, 71);
+}
+div{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: inline-block;
+    justify-content: space-around;
+}
+#div1 {
+    text-align: right;
+}
+#div2 {
+    text-align: left;
+}
+#div1 button{
+    text-align: right;
+}
+#div2 button{
+    text-align: left;
+}
+li {
+    list-style: none;
+    }
+button {
+    width: auto;
+    text-align: left;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: skyblue;
+    color: rgb(42, 58, 71);
+    border: 1px solid cadetblue;
+    border-radius: 1px;
+    margin-top: 5px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+button:active {
+    transform: scale(0.90);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+#add-btn {
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(42, 58, 71);
+    color: lightskyblue;
+    font-weight: bold;
+    position: absolute;
+    font-size: 13px;
+    border: 2px solid cadetblue;
+    border-radius: 6px;
+    top: 8;
+    right: 8;
+}
+
+#input-el {
+    border: 1px solid cadetblue;
+    width: 80%;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#input-btn {
+    width: auto;
+    font-size: 25px;
+}

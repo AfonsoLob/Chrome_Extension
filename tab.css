@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(42, 58, 71);
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 1px solid cadetblue; 
+    background-color: rgb(61, 84, 102);
+}
+#input-title-el {
+    width: 40%;
+    margin-bottom: 10px;
+}
+input::placeholder {
+    position: absolute;
+    bottom: 5px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 40%;
+    color: white;
+}
+
+button {
+    color: rgb(42, 58, 71);
+    font-weight: bold;
+    border: 1px solid cadetblue;
+    margin-top: 5px;
+    padding: 10px 20px;
+    background: skyblue;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+#delete-btn {
+    color: skyblue;
+    background-color: rgb(42, 58, 71);
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+li {
+    margin-top: 5px;
+}
+a {
+    color: skyblue;
+}
