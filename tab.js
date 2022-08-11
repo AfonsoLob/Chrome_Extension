@@ -69,10 +69,28 @@ function list(category, list, titleList) {
                             <a target='_blank' href='${leads[i]}'>
                                 ${titleList[i]}
                             </a>
-                        </li>`        
+                            <button class="close-button" value='${i}' aria-label="Dismiss alert" type="button">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </li>`
         }
-
         ulEl.innerHTML = listItems
+
+        const closeBtns = document.getElementsByClassName("close-button")
+        console.log(category)
+        console.log(titleList)
+        console.log(list)
+        for (i in leads) {
+            let close_btn = closeBtns[i]
+            close_btn.addEventListener("click", function() {
+                list.splice(close_btn.value,1)
+                titleList.splice(close_btn.value, 1)
+                localStorage.setItem(category, JSON.stringify(list) )
+                localStorage.setItem(`${category}title`, JSON.stringify(titleList) )
+                render(list)                
+            })
+        }
+        
     }
 
     deleteBtn.addEventListener("dblclick", function() {

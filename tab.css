@@ -36,9 +36,13 @@ button {
     cursor: pointer;
     transition: 0.2s all;
 }
-
+.close-button {
+    font-size: 12px;
+    margin-left: 5px;
+    padding: 2px 5px;
+}
 button:active {
-    transform: scale(0.98);
+    transform: scale(0.90);
     /* Scaling button to 0.98 to its original size */
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
