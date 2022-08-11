@@ -51,6 +51,7 @@ function list(category, list, titleList) {
                 //Check Title
                 if (!input_title.value == ""){
                     titleList.push(input_title.value)
+                    input_title.value = ""
                 }
                 else{
                     titleList.push(inputEl.value)
