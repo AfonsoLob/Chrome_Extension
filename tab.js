@@ -3,6 +3,7 @@ const inputEl = document.getElementById("input-el")
 const input_title = document.getElementById("input-title-el")
 const deleteBtn = document.getElementById("delete-btn")
 const tabBtn = document.getElementById("tab-btn")
+const returnBtn = document.getElementById("return-btn")
 const ulEl = document.getElementById("ul-el")
 
 let category = location.href.split("=").pop()
@@ -61,6 +62,9 @@ function list(category, list, titleList) {
             }
             render(list)
         });
+    })
+    returnBtn.addEventListener("click", function() {
+        window.location.replace("index.html")
     })
 
     function render(leads){

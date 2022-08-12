@@ -5,6 +5,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     min-width: 400px;
 }
+#return-btn {
+    min-width: 30px;
+    padding: 0;
+    font-size: 25px;
+    margin-bottom: 20px;
+    background-color: rgb(42, 58, 71);
+    color: cadetblue;
+    border-radius: 50px;
+
+}
 input {
     width: 100%;
     padding: 10px;
@@ -43,7 +53,7 @@ button {
 }
 button:active {
     transform: scale(0.90);
-    /* Scaling button to 0.98 to its original size */
+    /* Scaling button to 0.90 to its original size */
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
