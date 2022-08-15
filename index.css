@@ -1,14 +1,14 @@
 h2 {
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color: skyblue;
+    color:#E3BC86;
 }
 body {
     min-width: 400px;
     min-height: 100px;
     text-align: center;
-    background-color: rgb(42, 58, 71);
+    background-color:#F0EBE5;
 }
 div{
     margin-top: 0px;
@@ -39,9 +39,9 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
-    background-color: skyblue;
-    color: rgb(42, 58, 71);
-    border: 1px solid cadetblue;
+    background-color: #E3BC86;
+    color: #FFFFFF;
+    border: 1px solid #E3BC86;
     border-radius: 1px;
     margin-top: 5px;
     position: relative;
@@ -57,22 +57,24 @@ button:active {
 #add-btn {
     width: auto;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(42, 58, 71);
-    color: lightskyblue;
+    background-color: #E3BC86;
+    color:#FFFFFF;
     font-weight: bold;
     position: absolute;
     font-size: 13px;
-    border: 2px solid cadetblue;
+    border: 2px solid #B89F7B;
     border-radius: 6px;
     top: 8;
     right: 8;
 }
 
 #input-el {
-    border: 1px solid cadetblue;
+    border: 1px solid #B89F7B;
+    color:#B89F7B;
     width: 80%;
     font-size: 25px;
     margin-top: 10px;
+    
 }
 
 #input-btn {

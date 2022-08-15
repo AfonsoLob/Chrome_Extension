@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(42, 58, 71);
+    background-color: #F0EBE5;
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,11 +9,12 @@ body {
     min-width: 32px;
     padding: 0;
     padding-bottom: 3px;
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 20px;
-    background-color: rgb(42, 58, 71);
-    color: cadetblue;
+    background-color: white;
+    color: #B89F7B;
     border-radius: 50px;
+    border: 2px solid #B89F7B;
 
 }
 input {
@@ -21,8 +22,8 @@ input {
     padding: 10px;
     font-size: 20px;
     box-sizing: border-box;
-    border: 1px solid cadetblue; 
-    background-color: rgb(61, 84, 102);
+    border: 1px solid #B89F7B; 
+    background-color: #E3BC86;
 }
 #input-title-el {
     width: 40%;
@@ -32,18 +33,18 @@ input::placeholder {
     position: absolute;
     bottom: 5px;
     font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    opacity: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 70%;
     color: white;
 }
 
 button {
-    color: rgb(42, 58, 71);
+    color: #B89F7B;
     font-weight: bold;
-    border: 1px solid cadetblue;
+    border: 1px solid #B89F7B;
     margin-top: 5px;
     padding: 10px 20px;
-    background: skyblue;
+    background: #F0EBE5;
     cursor: pointer;
     transition: 0.2s all;
 }
@@ -59,8 +60,9 @@ button:active {
 }
 
 #delete-btn {
-    color: skyblue;
-    background-color: rgb(42, 58, 71);
+    color: white;
+    background-color: #B89F7B;
+    border: 1px solid #86693f;
 }
 
 ul {
@@ -72,5 +74,5 @@ li {
     margin-top: 5px;
 }
 a {
-    color: skyblue;
+    color: #86693f;
 }
