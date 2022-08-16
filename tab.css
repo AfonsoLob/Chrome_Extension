@@ -24,10 +24,16 @@ input {
     box-sizing: border-box;
     border: 1px solid #B89F7B; 
     background-color: #E3BC86;
+    color: #F0EBE5;
 }
 #input-title-el {
     width: 40%;
     margin-bottom: 10px;
+}
+input:focus {
+    border: 3px solid #86693f;
+    border-radius: 4px;
+    outline: none;
 }
 input::placeholder {
     position: absolute;
