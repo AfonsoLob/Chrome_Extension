@@ -55,11 +55,16 @@ function renderButtons(){
     addBtn = document.getElementById("add-btn")
     addBtn.addEventListener("click", function() {
         body.innerHTML = `
+        <div class='return'><button id="return-btn">&#10094;</button></div>
         <input type='text' id='input-el'> <br>
         <button id='input-btn'>Save Category</button>
         `
         const inputEl = document.getElementById("input-el")
         const inputBtn = document.getElementById("input-btn")
+        const returnBtn = document.getElementById("return-btn")
+        returnBtn.addEventListener("click", function() {
+            window.location.replace("index.html")
+        })
         inputBtn.addEventListener("click", function() {
             let categoryName = inputEl.value
             listOfCategories.push(categoryName)
@@ -67,4 +72,5 @@ function renderButtons(){
             renderButtons()
         })
     })
+       
 };

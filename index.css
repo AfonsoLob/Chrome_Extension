@@ -10,6 +10,10 @@ body {
     text-align: center;
     background-color:#F0EBE5;
 }
+.return {
+    width: 100%;
+    text-align: left;
+}
 div{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -31,7 +35,20 @@ div{
 }
 li {
     list-style: none;
-    }
+}
+#return-btn {
+    min-width: 32px;
+    padding: 0;
+    padding-bottom: 3px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+    color: #B89F7B;
+    border-radius: 50px;
+    border: 2px solid #B89F7B;
+}
 button {
     width: auto;
     text-align: left;
